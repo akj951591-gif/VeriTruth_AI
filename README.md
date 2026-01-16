@@ -1,20 +1,41 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" height="475" alt="Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# VeriTruth AI – Fake News Detector
 
-This contains everything you need to run your app locally.
+A sophisticated AI‑powered prototype that analyzes news, social media posts, and WhatsApp messages to detect misinformation.  
+It provides confidence scores, multilingual explanations, and transparent reasoning to help users distinguish between real and fake content.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Ad_r11wVrcXnw55cbEAzPt7-hHU84nt-
+---
 
-## Run Locally
+## ✨ Features
+- 🔍 **Misinformation Detection** – Analyze text from news, social media, and WhatsApp.
+- 📊 **Confidence Scores** – See how likely content is true or false.
+- 🌍 **Multilingual Support** – Explanations available in multiple languages.
+- 🧠 **Explainable AI** – Transparent reasoning behind each detection.
+- ⚡ **Modern Tech Stack** – Built with React 19, Vite, and TypeScript.
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Tech Stack
+- **Frontend:** React 19, React DOM  
+- **Bundler:** Vite  
+- **Language:** TypeScript  
+- **AI Integration:** `@google/genai` (Gemini API)  
+- **Environment:** Node.js  
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Install [Node.js](https://nodejs.org) (LTS recommended)
+- Have a [Gemini API Key](https://ai.google.dev/) ready
+
+### Installation
+Clone the repository and install dependencies:
+```bash
+git clone https://github.com/your-username/veritruth-ai.git
+cd veritruth-ai
+npm install
