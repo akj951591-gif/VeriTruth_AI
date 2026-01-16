@@ -33,6 +33,6 @@ It provides confidence scores, multilingual explanations, and transparent reason
 ### Installation
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/your-username/veritruth-ai.git
-cd veritruth-ai
+git clone https://github.com/your-username/VeriTruth_AI.git
+cd VeriTruth_AI
 npm install
