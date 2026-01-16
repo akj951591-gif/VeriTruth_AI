@@ -1,0 +1,7 @@
+{
+  "name": "VeriTruth AI - Fake News Detector",
+  "description": "A sophisticated AI-powered prototype that analyzes news, social media posts, and WhatsApp messages to detect misinformation, provide confidence scores, and explain its reasoning in multiple languages.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
